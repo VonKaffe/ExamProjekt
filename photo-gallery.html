@@ -1,11 +1,12 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/carousel.css">
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="css/carousel.css">
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="jquery-3.2.1.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -13,8 +14,10 @@
     <title>Document</title>
 </head>
 <body>
+
+<!---- NavBar ---->
+<div class="container-fluid">
 <nav class="navbar navbar-default">
-    <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
@@ -27,7 +30,7 @@
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+                <li><a href="index.html">Home </a></li>
                 <li><a href="#">About</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">All Services <span class="caret"></span></a>
@@ -49,16 +52,18 @@
                 <button type="submit" class="btn btn-default">Submit</button>
             </form>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Photo Gallery</a></li>
+                <li class="active"><a href="#">Photo Gallery <span class="sr-only">(current)</span></a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
     </div>
 </nav>
-<div class="container main-container">
+<!---- NavBar END ---->
 
+<!---- Carousel ---->
+<div class="container main-container">
 
     <div id="carousel-example-generic" class="carousel slide">
         <!-- Indicators -->
@@ -77,9 +82,9 @@
                 <div class="carousel-caption">
 
                     <h3 data-animation="animated bounceInRight">
-                        Best Web Bureau in the world!
+                        Här kommer en sida som veckans sida!
                     </h3>
-                    <button class="btn btn-primary btn-lg" data-animation="animated zoomInUp">Button</button>
+                    <button class="btn btn-primary btn-lg" data-animation="animated zoomInUp">Läs mer</button>
                 </div>
             </div> <!-- /.item -->
 
@@ -88,9 +93,9 @@
                 <div class="carousel-caption">
 
                     <h3 data-animation="animated bounceInUp">
-                        We have the best deal for your website!
+                        REA på denna sidan!
                     </h3>
-                    <button class="btn btn-primary btn-lg" data-animation="animated zoomInRight">Button</button>
+                    <button class="btn btn-primary btn-lg" data-animation="animated zoomInRight">Läs mer</button>
                 </div>
             </div><!-- /.item -->
 
@@ -99,9 +104,9 @@
                 <div class="carousel-caption">
 
                     <h3 data-animation="animated flipInX">
-                        Find Out More!!
+                        Årets bästa sida!
                     </h3>
-                    <button class="btn btn-primary btn-lg" data-animation="animated lightSpeedIn">Button</button>
+                    <button class="btn btn-primary btn-lg" data-animation="animated lightSpeedIn">Läs mer</button>
                 </div>
             </div><!-- /.item -->
 
@@ -116,40 +121,73 @@
             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
-    </div><!-- /.carousel -->
+    </div>
 
-</div><!-- /.container -->
+</div>
+<!---- Carousel END ---->
+
 <br>
 
 <div class="container">
-    <div class="panel panel-default">
-        <div class="panel-heading text-center">
-            <div class="panel-title">
-
-                <h1>Header</h1>
-
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="card">
+                <h3 class="card-header">Blue theme</h3>
+                <div class="card-body">
+                    <h5 class="card-title">Här en blå blogg</h5>
+                    <h6 class="card-subtitle text-muted">14,000 kr</h6>
+                </div>
+                <img style="height: 200px; width: 100%; display: block;" src="photo-gallery-img/blue.jpg" alt="Card image">
+                <div class="card-body">
+                    <p class="card-text">Vill du ha en blå blogg så tryck på köp nu eller läs mer</p>
+                    <a href="#" class="card-link">Köp nu</a>
+                    <br>
+                    <a href="#" class="card-link">Läs mer</a>
+                </div>
+                <div class="card-footer text-muted">
+                    2 days ago
+                </div>
             </div>
-
         </div>
-
-        <div class="panel-body text-center">
-
-            Nam nec sagittis risus, eget dapibus metus. Nunc turpis velit, mattis ut velit ut, elementum vehicula
-            ligula. Vestibulum ac lorem eget eros rhoncus tempus sit amet ac felis. Orci varius natoque penatibus et
-            magnis dis parturient montes, nascetur ridiculus mus. Etiam rutrum odio efficitur dui ultricies, vitae
-            efficitur lorem rhoncus. Nunc a sagittis urna. Donec ultricies lobortis ex, vitae dignissim sapien
-            varius at. Etiam aliquam elementum nibh ut bibendum. Interdum et malesuada fames ac ante ipsum primis in
-            faucibus. Nullam pulvinar sapien est, in venenatis eros facilisis quis.
+        <div class="col-sm-4">
+            <div class="card">
+                <h3 class="card-header">Red theme</h3>
+                <div class="card-body">
+                    <h5 class="card-title">Här en röd blogg</h5>
+                    <h6 class="card-subtitle text-muted">14,000 kr</h6>
+                </div>
+                <img style="height: 200px; width: 100%; display: block;" src="photo-gallery-img/red.jpg" alt="Card image">
+                <div class="card-body">
+                    <p class="card-text">Vill du ha en röd blogg så tryck på köp nu eller läs mer</p>
+                    <a href="#" class="card-link">Köp nu</a>
+                    <br>
+                    <a href="#" class="card-link">Läs mer</a>
+                </div>
+                <div class="card-footer text-muted">
+                    52 days ago
+                </div>
+            </div>
         </div>
-
-
+        <div class="col-sm-4">
+            <div class="card">
+                <h3 class="card-header">Black theme</h3>
+                <div class="card-body">
+                    <h5 class="card-title">Här en svart blogg</h5>
+                    <h6 class="card-subtitle text-muted">14,000 kr</h6>
+                </div>
+                <img style="height: 200px; width: 100%; display: block;" src="photo-gallery-img/black.jpg" alt="Card image">
+                <div class="card-body">
+                    <p class="card-text">Vill du ha en svart blogg så tryck på köp nu eller läs mer</p>
+                    <a href="#" class="card-link">Köp nu</a>
+                    <br>
+                    <a href="#" class="card-link">Läs mer</a>
+                </div>
+                <div class="card-footer text-muted">
+                    150 days ago
+                </div>
+            </div>
+        </div>
     </div>
-</div>
-
-
-
-
-
 </div>
 
 </body>
