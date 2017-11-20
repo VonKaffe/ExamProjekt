@@ -3,7 +3,6 @@
 <head>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css">
-    <link rel="stylesheet" href="carousel.css">
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -68,35 +67,145 @@
         <fieldset>
             <legend>Blog</legend>
             <div class="form-group">
-                <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Exempel@hotmail.com">
+                <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+                <div class="col-lg-10">
+                    <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+                </div>
             </div>
 
             <div class="form-group">
-                <label for="exampleTextarea">Input</label>
-                <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                <label for="textArea" class="col-lg-2 control-label">Textarea</label>
+                <div class="col-lg-10">
+                    <textarea class="form-control" rows="3" id="textArea"></textarea>
+                    <span class="help-block">Please, do not write foul words</span>
+                </div>
             </div>
 
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <div class="form-group">
+                <div class="col-lg-10 col-lg-offset-2">
+                    <button type="reset" class="btn btn-default">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
         </fieldset>
     </form>
 </div>
 
-<br>
 <div class="container">
-    <div class="panel panel-success">
-        <div class="panel-heading">
-            <h3 class="panel-title">Nisse@hotmail.com</h3>
-        </div>
-        <div class="panel-body">
-            Nam nec sagittis risus, eget dapibus metus. Nunc turpis velit, mattis ut velit ut, elementum vehicula
-            ligula. Vestibulum ac lorem eget eros rhoncus tempus sit amet ac felis. Orci varius natoque penatibus et
-            magnis dis parturient montes,
-        </div>
-    </div>
-</div>
+    <div class="row">
+        <div class="col-sm-12">
+            <h3>User Comment Example</h3>
+        </div><!-- /col-sm-12 -->
+    </div><!-- /row -->
+    <div class="row">
+        <div class="col-sm-1">
+            <div class="thumbnail">
+                <img class="img-responsive user-photo" src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png">
+            </div><!-- /thumbnail -->
+        </div><!-- /col-sm-1 -->
 
+        <div class="col-sm-5">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <strong>Nisse.se</strong> <span class="text-muted"> commented 5 days ago</span>
+                </div>
+                <div class="panel-body">
+                    We got great help and service. I strongly recommend.
+                </div><!-- /panel-body -->
+            </div><!-- /panel panel-default -->
 
+        </div><!-- /col-sm-5 -->
+
+        <div class="col-sm-1">
+            <div class="thumbnail">
+                <img class="img-responsive user-photo" src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png">
+            </div><!-- /thumbnail -->
+        </div><!-- /col-sm-1 -->
+
+        <div class="col-sm-5">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <strong>Webhallen.se</strong> <span class="text-muted">commented 10 days ago</span>
+                </div>
+                <div class="panel-body">
+                    Bad company, lurking us at 500K kr.
+                </div><!-- /panel-body -->
+            </div><!-- /panel panel-default -->
+        </div><!-- /col-sm-5 -->
+
+    </div><!-- /row -->
+    <div class="row">
+        <div class="col-sm-1">
+            <div class="thumbnail">
+                <img class="img-responsive user-photo" src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png">
+            </div><!-- /thumbnail -->
+        </div><!-- /col-sm-1 -->
+
+        <div class="col-sm-5">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <strong>Google.se</strong> <span class="text-muted"> commented 15 days ago</span>
+                </div>
+                <div class="panel-body">
+                    We here on Google.se want to thank you for all the help we have received.
+                </div><!-- /panel-body -->
+            </div><!-- /panel panel-default -->
+        </div><!-- /col-sm-5 -->
+
+        <div class="col-sm-1">
+            <div class="thumbnail">
+                <img class="img-responsive user-photo" src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png">
+            </div><!-- /thumbnail -->
+        </div><!-- /col-sm-1 -->
+
+        <div class="col-sm-5">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <strong>Yahoo.se</strong> <span class="text-muted"> commented 20 days ago</span>
+                </div>
+                <div class="panel-body">
+                    With your service, we have made the double profit!
+                </div><!-- /panel-body -->
+            </div><!-- /panel panel-default -->
+        </div><!-- /col-sm-5 -->
+    </div><!-- /row -->
+    <div class="row">
+        <div class="col-sm-1">
+            <div class="thumbnail">
+                <img class="img-responsive user-photo" src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png">
+            </div><!-- /thumbnail -->
+        </div><!-- /col-sm-1 -->
+
+        <div class="col-sm-5">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <strong>DeDu.se</strong> <span class="text-muted"> commented 25 days ago</span>
+                </div>
+                <div class="panel-body">
+                    We got great service. I highly recommend!
+                </div><!-- /panel-body -->
+            </div><!-- /panel panel-default -->
+        </div><!-- /col-sm-5 -->
+
+        <div class="col-sm-1">
+            <div class="thumbnail">
+                <img class="img-responsive user-photo" src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png">
+            </div><!-- /thumbnail -->
+        </div><!-- /col-sm-1 -->
+
+        <div class="col-sm-5">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <strong>Olle.com</strong> <span class="text-muted"> commented 30 days ago</span>
+                </div>
+                <div class="panel-body">
+                    We are a small company that knows nothing about websites, but thanks to you. We can now be seen on the internet!
+                </div><!-- /panel-body -->
+            </div><!-- /panel panel-default -->
+        </div><!-- /col-sm-5 -->
+    </div><!-- /row -->
+
+</div><!-- /container -->
 
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
