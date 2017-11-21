@@ -67,164 +67,269 @@
     </ol>
 </div>
 
-<div class="container">
-    <form>
-        <fieldset>
-            <legend>Blog</legend>
-            <div class="form-group">
-                <label for="inputEmail" class="col-lg-2 control-label">Email</label>
-                <div class="col-lg-10">
-                    <input type="text" class="form-control" id="inputEmail" placeholder="Email">
-                </div>
-            </div>
-
-            <div class="form-group">
-                <label for="textArea" class="col-lg-2 control-label">Textarea</label>
-                <div class="col-lg-10">
-                    <textarea class="form-control" rows="3" id="textArea"></textarea>
-                    <span class="help-block">Please, do not write foul words</span>
-                </div>
-            </div>
-
-            <div class="form-group">
-                <div class="col-lg-10 col-lg-offset-2">
-                    <button type="reset" class="btn btn-default">Cancel</button>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </div>
-            </div>
-        </fieldset>
-    </form>
+<div class="row">
+    <div class="col-xs-12 text-center">
+        <h1>Blog</h1>
+    </div>
 </div>
 
 
+
+
 <div class="container">
     <div class="row">
-        <div class="col-sm-12">
-            <h3>Comments</h3>
-        </div><!-- /col-sm-12 -->
+        <!-- Blogg 1 -->
+        <div class="col-sm-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">Titel till bild <span class="text-muted"> commented 5 days ago</span></div>
+                <div class="panel-body">
+                    <div class="thumbnail">
+                        <img src="photo-gallery-img/blue.jpg" alt="Lights" style=" height: 300px; width: 100%;">
+                        <div class="caption">
+                            <p>Vi har lite bild text här</p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="comment">Comment:</label>
+                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                    </div>
+                    <button type="button" class="btn btn-primary">Submit</button>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h3>Comments</h3>
+                            </div><!-- /col-sm-12 -->
+                        </div><!-- /row -->
+                        <div class="row">
+                            <div class="col-sm-1">
+                                <div class="thumbnail">
+                                    <img class="img-circle img-responsive user-photo" src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png">
+                                </div><!-- /thumbnail -->
+                            </div><!-- /col-sm-1 -->
+
+                            <div class="col-sm-4">
+                                <div class="panel panel-info">
+                                    <div class="panel-heading">
+                                        <strong>Nisse.se</strong> <span class="text-muted"> commented 5 days ago</span>
+                                    </div>
+                                    <div class="panel-body">
+                                        <p>We got great help and service. I strongly recommend.</p>
+
+                                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseId-500" aria-expanded="false">Toggle comments <span class="badge">1</span>
+                                        </button>
+                                        <ul class="media-list collapse" id="collapseId-500" aria-expanded="false" style="height: 0px;">
+                                            <li class="media">
+
+                                                <div class="media-body">
+                                                    <h4 class="media-heading">Webbhallen<i class="small" style="margin-left: 5px">
+                                                        Posted 3 min</i></h4>
+                                                    <p>You are a fool</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+
+                                    </div><!-- /panel-body -->
+                                </div><!-- /panel panel-default -->
+                            </div><!-- /col-sm-5 -->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Blogg 2 -->
+        <div class="col-sm-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">Titel till bild <span class="text-muted"> commented 5 days ago</span></div>
+                <div class="panel-body">
+
+                    <div class="thumbnail">
+                        <img src="photo-gallery-img/red.jpg" alt="Lights" style=" height: 300px; width: 100%;">
+                        <div class="caption">
+                            <p>Vi har lite bild text här</p>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="comment">Comment:</label>
+                        <textarea class="form-control" rows="5" id="commentBlogg2"></textarea>
+                    </div>
+
+                    <button type="button" class="btn btn-primary">Submit</button>
+                    <!-- Comments -->
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h3>Comments</h3>
+                            </div><!-- /col-sm-12 -->
+                        </div><!-- /row -->
+                        <div class="row">
+                            <div class="col-sm-1">
+                                <div class="thumbnail">
+                                    <img class="img-circle img-responsive user-photo" src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png">
+                                </div><!-- /thumbnail -->
+                            </div><!-- /col-sm-1 -->
+
+                            <div class="col-sm-4">
+                                <div class="panel panel-info">
+                                    <div class="panel-heading">
+                                        <strong>Nisse.se</strong> <span class="text-muted"> commented 5 days ago</span>
+                                    </div>
+                                    <div class="panel-body">
+                                        <p>We got great help and service. I strongly recommend.</p>
+
+                                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseId-Blog2" aria-expanded="false">Toggle comments <span class="badge">1</span>
+                                        </button>
+                                        <ul class="media-list collapse" id="collapseId-Blog2" aria-expanded="false" style="height: 0px;">
+                                            <li class="media">
+
+                                                <div class="media-body">
+                                                    <h4 class="media-heading">Webbhallen<i class="small" style="margin-left: 5px">
+                                                        Posted 3 min</i></h4>
+                                                    <p>You are a fool</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+
+                                    </div><!-- /panel-body -->
+                                </div><!-- /panel panel-default -->
+                            </div><!-- /col-sm-5 -->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Blogg 3 -->
+        <div class="col-sm-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">Titel till bild <span class="text-muted"> commented 5 days ago</span></div>
+                <div class="panel-body">
+                    <div class="thumbnail">
+                        <img src="photo-gallery-img/blue.jpg" alt="Lights" style=" height: 300px; width: 100%;">
+                        <div class="caption">
+                            <p>Vi har lite bild text här</p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="comment">Comment:</label>
+                        <textarea class="form-control" rows="5" id="comment3"></textarea>
+                    </div>
+                    <button type="button" class="btn btn-primary">Submit</button>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h3>Comments</h3>
+                            </div><!-- /col-sm-12 -->
+                        </div><!-- /row -->
+                        <div class="row">
+                            <div class="col-sm-1">
+                                <div class="thumbnail">
+                                    <img class="img-circle img-responsive user-photo" src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png">
+                                </div><!-- /thumbnail -->
+                            </div><!-- /col-sm-1 -->
+
+                            <div class="col-sm-4">
+                                <div class="panel panel-info">
+                                    <div class="panel-heading">
+                                        <strong>Nisse.se</strong> <span class="text-muted"> commented 5 days ago</span>
+                                    </div>
+                                    <div class="panel-body">
+                                        <p>We got great help and service. I strongly recommend.</p>
+
+                                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseId-Comment3" aria-expanded="false">Toggle comments <span class="badge">1</span>
+                                        </button>
+                                        <ul class="media-list collapse" id="collapseId-Comment3" aria-expanded="false" style="height: 0px;">
+                                            <li class="media">
+
+                                                <div class="media-body">
+                                                    <h4 class="media-heading">Webbhallen<i class="small" style="margin-left: 5px">
+                                                        Posted 3 min</i></h4>
+                                                    <p>You are a fool</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+
+                                    </div><!-- /panel-body -->
+                                </div><!-- /panel panel-default -->
+                            </div><!-- /col-sm-5 -->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Blogg 4 -->
+        <div class="col-sm-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">Titel till bild <span class="text-muted"> commented 5 days ago</span></div>
+                <div class="panel-body">
+
+                    <div class="thumbnail">
+                        <img src="photo-gallery-img/Webb3.jpg" alt="Lights" style=" height: 300px; width: 100%;">
+                        <div class="caption">
+                            <p>Vi har lite bild text här</p>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="comment">Comment:</label>
+                        <textarea class="form-control" rows="5" id="commentBlogg4"></textarea>
+                    </div>
+
+                    <button type="button" class="btn btn-primary">Submit</button>
+                    <!-- Comments -->
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h3>Comments</h3>
+                            </div><!-- /col-sm-12 -->
+                        </div><!-- /row -->
+                        <div class="row">
+                            <div class="col-sm-1">
+                                <div class="thumbnail">
+                                    <img class="img-circle img-responsive user-photo" src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png">
+                                </div><!-- /thumbnail -->
+                            </div><!-- /col-sm-1 -->
+
+                            <div class="col-sm-4">
+                                <div class="panel panel-info">
+                                    <div class="panel-heading">
+                                        <strong>Nisse.se</strong> <span class="text-muted"> commented 5 days ago</span>
+                                    </div>
+                                    <div class="panel-body">
+                                        <p>We got great help and service. I strongly recommend.</p>
+
+                                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseId-Comment4" aria-expanded="false">Toggle comments <span class="badge">1</span>
+                                        </button>
+                                        <ul class="media-list collapse" id="collapseId-Comment4" aria-expanded="false" style="height: 0px;">
+                                            <li class="media">
+
+                                                <div class="media-body">
+                                                    <h4 class="media-heading">Webbhallen<i class="small" style="margin-left: 5px">
+                                                        Posted 3 min</i></h4>
+                                                    <p>You are a fool</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+
+                                    </div><!-- /panel-body -->
+                                </div><!-- /panel panel-default -->
+                            </div><!-- /col-sm-5 -->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </div><!-- /row -->
-    <div class="row">
-        <div class="col-sm-1">
-            <div class="thumbnail">
-            <img class="img-circle img-responsive user-photo" src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png">
-            </div><!-- /thumbnail -->
-        </div><!-- /col-sm-1 -->
+</div>
 
-        <div class="col-sm-5">
-            <div class="panel panel-info">
-                <div class="panel-heading">
-                    <strong>Nisse.se</strong> <span class="text-muted"> commented 5 days ago</span>
-                </div>
-                <div class="panel-body">
-                     We got great help and service. I strongly recommend.
-
-                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseId-1" aria-expanded="false">Toggle comments <span class="badge">1</span>
-                    </button>
-                    <ul class="media-list collapse" id="collapseId-1" aria-expanded="false" style="height: 0px;">
-                        <li class="media">
-
-                            <div class="media-body">
-                                <h4 class="media-heading">Webbhallen<i class="small" style="margin-left: 5px">
-                                    Posted 3 min</i></h4>
-                                <p>You are a fool</p>
-                            </div>
-                        </li>
-                    </ul>
-
-                </div><!-- /panel-body -->
-            </div><!-- /panel panel-default -->
-        </div><!-- /col-sm-5 -->
-
-        <div class="col-sm-1">
-            <div class="thumbnail">
-                <img class="img-responsive user-photo" src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png">
-            </div><!-- /thumbnail -->
-        </div><!-- /col-sm-1 -->
-
-        <div class="col-sm-5">
-            <div class="panel panel-info">
-                <div class="panel-heading">
-                    <strong>Webhallen.se</strong> <span class="text-muted">commented 10 days ago</span>
-                </div>
-                <div class="panel-body">
-                     Bad company, lurking us at 500K kr.
-                </div><!-- /panel-body -->
-            </div><!-- /panel panel-default -->
-        </div><!-- /col-sm-5 -->
-
-    </div><!-- /row -->
-    <div class="row">
-        <div class="col-sm-1">
-            <div class="thumbnail">
-                 <img class="img-responsive user-photo" src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png">
-            </div><!-- /thumbnail -->
-        </div><!-- /col-sm-1 -->
-
-        <div class="col-sm-5">
-            <div class="panel panel-info">
-                <div class="panel-heading">
-                    <strong>Google.se</strong> <span class="text-muted"> commented 15 days ago</span>
-                </div>
-                <div class="panel-body">
-                    We here on Google.se want to thank you for all the help we have received.
-                </div><!-- /panel-body -->
-            </div><!-- /panel panel-default -->
-        </div><!-- /col-sm-5 -->
-
-        <div class="col-sm-1">
-            <div class="thumbnail">
-                <img class="img-responsive user-photo" src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png">
-            </div><!-- /thumbnail -->
-        </div><!-- /col-sm-1 -->
-
-        <div class="col-sm-5">
-            <div class="panel panel-info">
-                <div class="panel-heading">
-                    <strong>Yahoo.se</strong> <span class="text-muted"> commented 20 days ago</span>
-                </div>
-                <div class="panel-body">
-                    With your service, we have made the double profit!
-                </div><!-- /panel-body -->
-            </div><!-- /panel panel-default -->
-        </div><!-- /col-sm-5 -->
-    </div><!-- /row -->
-    <div class="row">
-        <div class="col-sm-1">
-            <div class="thumbnail">
-                <img class="img-responsive user-photo" src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png">
-            </div><!-- /thumbnail -->
-        </div><!-- /col-sm-1 -->
-
-        <div class="col-sm-5">
-            <div class="panel panel-info">
-                <div class="panel-heading">
-                    <strong>DeDu.se</strong> <span class="text-muted"> commented 25 days ago</span>
-                </div>
-                <div class="panel-body">
-                     We got great service. I highly recommend!
-                </div><!-- /panel-body -->
-            </div><!-- /panel panel-default -->
-        </div><!-- /col-sm-5 -->
-
-        <div class="col-sm-1">
-            <div class="thumbnail">
-                <img class="img-responsive user-photo" src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png">
-            </div><!-- /thumbnail -->
-        </div><!-- /col-sm-1 -->
-
-        <div class="col-sm-5">
-            <div class="panel panel-info">
-                <div class="panel-heading">
-                    <strong>Olle.com</strong> <span class="text-muted"> commented 30 days ago</span>
-                </div>
-                <div class="panel-body">
-                    We are a small company that knows nothing about websites, but thanks to you. We can now be seen on the internet!
-                </div><!-- /panel-body -->
-            </div><!-- /panel panel-default -->
-        </div><!-- /col-sm-5 -->
-    </div><!-- /row -->
-
-</div><!-- /container -->
 
 
 
