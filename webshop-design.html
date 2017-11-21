@@ -29,19 +29,21 @@
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+                <li><a href="index.html">Home </a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="photo-gallery.html">Photo Gallery</a></li>                <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">All Services <span class="caret"></span></a>
-                    <ul class="dropdown-menu" role="menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#">One more separated link</a></li>
-                    </ul>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="all-services.html">All services</a></li>
+                    <li class="divider"></li>
+                    <li><a href="SEO-opt.html">SEO Optimizing</a></li>
+                    <li class="active"><a href="webshop-design.html">Design Of Webshop <span class="sr-only">(current)</span></a></li>
+                    <li><a href="Troubleshooting.html">Troubleshooting of Websites</a></li>
+                    <li><a href="maintenance-website.html">Website Maintenance</a></li>
+                    <li><a href="Wirefram-drawing.html">Drawing Of Wireframe</a></li>
+                    <li><a href="blogdesign.html">Design Of Blog </a></li>
+
+                </ul>
                 </li>
             </ul>
             <form class="navbar-form navbar-right" role="search">
@@ -59,50 +61,95 @@
         </div>
     </div>
 </nav>
-        </div>
-    </div>
-</header>
+
 <main class="container">
     <ol class="breadcrumb">
         <li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
         <li><a href="all-services.html">All Services</a></li>
         <li>Webshop Design</li>
     </ol>
-    <div class="row">
-        <div class="col-xs-12 text-center">
-            <h1>Webshop Design</h1>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-4">
-            <img src="images/webshop.jpg" alt="Woman shopping" class="img-responsive">
-        </div>
-        <div class="col-md-8 text-justify lead">
-            <p>What would an online store be without the software to power it? A catalog, that’s what.
 
-                Though selecting a content management system (CMS) or store software provider doesn’t have to be the first step you take, it’s a crucial technical aspect of any eCommerce experience. Your store software also helps narrow the range from which you can choose compatible add-ons (like payment gateways or shipping suites, which we’ll cover shortly), and determines whether or not you need separate hosting. So it’s best to get this set up and out of the way quickly.</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <h1>Webshop Design</h1>
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-md-4 col-md-offset-4">
-            <form>
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" class="form-control" id="name" placeholder="Name">
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-                </div>
 
-                <div class="form-group">
-                    <label for="writemessage">Message</label>
-                    <textarea class="form-control" id="writemessage"></textarea>
+        <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#home">Blog Design</a></li>
+            <li><a data-toggle="tab" href="#menu1">Contact </a></li>
+        </ul>
+
+        <div class="tab-content">
+            <div id="home" class="tab-pane fade in active">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="images/webshop.jpg" alt="Woman shopping" class="img-responsive">
+                    </div>
+                    <div class="col-md-8 text-justify lead">
+                        <p>What would an online store be without the software to power it? A catalog, that’s what.
+
+                            Though selecting a content management system (CMS) or store software provider doesn’t have to be the first step you take, it’s a crucial technical aspect of any eCommerce experience. Your store software also helps narrow the range from which you can choose compatible add-ons (like payment gateways or shipping suites, which we’ll cover shortly), and determines whether or not you need separate hosting. So it’s best to get this set up and out of the way quickly.</p>
+                    </div>
                 </div>
-                <button type="submit" class="btn btn-success">Submit</button>
-            </form>
+            </div>
+
+            <div id="menu1" class="tab-pane fade">
+                <div class="row">
+                    <div class="col-md-4 col-md-offset-4">
+                        <form>
+                            <legend>Contact us for a quotation</legend>
+
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="writemessage">Message</label>
+                                <textarea class="form-control" id="writemessage"></textarea>
+                            </div>
+                            <!-- Trigger the modal with a button -->
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+                            <!-- Modal -->
+                            <div id="myModal" class="modal fade" role="dialog">
+                                <div class="modal-dialog">
+
+                                    <!-- Modal content-->
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h4 class="modal-title">Observe!</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Are you sure you want to be in touch.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-success" data-dismiss="modal">Send</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
+
     </div>
+
+
+
+
+    
 </main>
 </body>
 </html>
