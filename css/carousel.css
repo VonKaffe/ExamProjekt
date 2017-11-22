@@ -11,6 +11,7 @@ Edit on
 }
 .darkerskyblue {
     background-color: #00a6dd;
+    
 }
 .carousel-indicators {
     bottom: 0;
@@ -21,7 +22,7 @@ Edit on
     background-image: none;
 }
 .carousel .item {
-    background-color: #f5f5f5;
+    background-color: rgb(255, 255, 255);
     min-height: 350px;
     height: 100%;
     width:100%;
