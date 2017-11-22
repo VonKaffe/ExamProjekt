@@ -74,3 +74,9 @@ h1 {
     text-decoration: underline;
 }
 
+.carousel-indicators li {
+    background-color: deepskyblue;
+}
+.carousel-indicators .active {
+  background-color: deepskyblue;
+}
