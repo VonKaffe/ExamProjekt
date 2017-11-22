@@ -21,11 +21,10 @@ Edit on
     background-image: none;
 }
 .carousel .item {
-    background-color: black;
+    background-color: #f5f5f5;
     min-height: 350px;
     height: 100%;
     width:100%;
-    background-color: black;
 }
 .carousel-caption h3,
 .carousel .icon-container,
